@@ -11,7 +11,7 @@ st.dataframe(data)
 multi = st.multiselect('nombres', ['Sofi', 'Trini', 'Ale'])
 
 if multi == 'Trini':
-    st.write('Hola Trini')
+    st.subheader('Hola Trini')
 elif multi== 'Sofi':
-    st.write('Hola Sofi')
+    st.subheader('Hola Sofi')
 
